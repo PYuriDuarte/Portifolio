@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './components/layout/css/main.min.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Containerjs from './components/layout/Container';
+import NavBarjs from './components/layout/NavBar';
+import Homejs from './components/pages/Home';
+import Projectsjs from './components/pages/Projects';
+import Contactjs from './components/pages/Contact';
+import Habilitesjs from './components/pages/Habilites';
+import BtnPagejs from './components/layout/BtnPage';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Containerjs>
+        <NavBarjs/>
+        <BtnPagejs/>
+        <Routes>
+          <Route path='/' exact='true' element={<Homejs/>}></Route>
+          <Route path='/habilites' element={<Habilitesjs/>}></Route>
+          <Route path='/projects' element={<Projectsjs/>}></Route>
+          <Route path='/contact' element={<Contactjs/>}></Route>              
+        </Routes>
+      </Containerjs>
+    </Router>
   );
 }
 

@@ -1,0 +1,15 @@
+:root{
+  --color-Btn-text: #f1f1f1;
+  --color-Btn-body: #2b2b2b;
+  --color-Btn-navBar: #222;
+  --color-Btn-social: #f3f3f3;
+  --color-Btn-pageChange: #fff;
+}
+.lightMode:root{
+  --color-Btn-text: #111;
+  --color-Btn-body: #fff;
+}
+.raimbowMode:root{
+  --color-Btn-text: #2b2b2b;
+  --color-Btn-body: #f3f3f3;
+}

@@ -1,0 +1,51 @@
+.swap{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 15rem;
+  flex-direction: column;
+  margin-top: 5rem;  
+  .radio{
+    border: 1rem solid transparent;
+    margin-bottom: 1rem;
+    label{
+      cursor: pointer;
+      #switchA,#switchB,#switchC,#switchD{
+        all: unset;
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        border: 2px solid var(--color-Btn-navBar);        
+      }
+      #switchA{
+        background: #fff;
+        &:checked{
+          background: red;
+          border: 2px solid #fff;
+        }        
+      }     
+      #switchB{
+        background: #fff;
+        &:checked{
+          background: red;
+          border: 2px solid #fff;
+        } 
+      }     
+      #switchC{
+        background: #fff;
+        &:checked{
+          background: red;
+          border: 2px solid #fff;
+        } 
+      }     
+      #switchD{
+        background: #fff;
+        &:checked{
+          background: red;
+          border: 2px solid #fff;
+        } 
+      }     
+    }
+  }
+}
