@@ -3,7 +3,7 @@ function SwitchCjs(){
   return (
     <div className="radio">
       <label>
-        <input id="switchC" name="PageColor" type="radio" value="2"/>
+        <input disabled id="switchC" name="PageColor" type="radio" value="2"/>
       </label>
     </div>
   )

@@ -3,7 +3,7 @@ function SwitchDjs(){
   return (
     <div className="radio">
       <label>
-        <input id="switchD" name="PageColor" type="radio" value="3"/>
+        <input disabled id="switchD" name="PageColor" type="radio" value="3"/>
       </label>
     </div>
   )

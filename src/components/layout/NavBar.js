@@ -9,14 +9,14 @@ function NavBarjs(){
     <nav className='navbar'>
       <div className='navdiv'>
         <Link to="/">
-          <img src={Y} alt="logo Yuri"/>
+          <img className='logo ipsilon' src={Y} alt="logo Yuri"/>
         </Link>
         <hr/>
         <ul className='list'>
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/sobre">Sobre</Link></li>
           <li><Link to="/projects">Projetos</Link></li>
-          <li><Link to="/contact">Contato</Link></li>
           <li><Link to="/habilites">Habilidades</Link></li>
+          <li><Link to="/contact">Contato</Link></li>          
         </ul>
         <ul className='social_list'>
           <li className='icon icon-face'><FaFacebook/></li>
