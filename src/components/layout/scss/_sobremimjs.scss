@@ -1,4 +1,4 @@
-#sobreId{
+#sobreMimId{
   flex: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -9,8 +9,14 @@
   text-align: center;
   .foteste{
     flex: 40%;
+    max-height: 39rem;
+    position: relative;
+    overflow: hidden;
+    img{
+      width: 200rem;
+    }
   }
-  .sobre{
+  .sobreMim{
     flex: 60%;
     height: 100%;
     max-height: 40rem;
@@ -19,9 +25,9 @@
     justify-content: center;
     align-items: center;
     position: relative;    
-    .titleSobre{
+    .titleSobreMim{
       margin-bottom: 1rem;
-      margin-top: 2rem;
+      margin-top: 1.5rem;
       span{
         margin: 0 0 0 -30rem;
       }
@@ -37,7 +43,7 @@
         } 
       }       
     }
-    .h3Sobre{
+    .h3SobreMim{
       margin: 2rem;
       h3{
         font-size: 3rem;
@@ -48,7 +54,8 @@
         margin-left: -50rem;
       }
     }
-    .paragrafoSobre{
+    .paragrafoSobreMim{
+      margin-bottom: .5rem;
       p{
         color: #ccc;
         font-size: 2rem;

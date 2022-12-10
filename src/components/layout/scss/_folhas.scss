@@ -1,0 +1,31 @@
+.folhas{
+  flex: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  a{   
+    p{
+      margin: 0 2rem;
+      font-size: 5rem;
+      color: #ccc;
+      transition: all .3s ease-out;
+      &:hover{
+        color: #fff;
+        font-size: 5.2rem;
+      }
+    }    
+  }
+  span{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40%;
+    div{
+      width: 100%;
+      height: .3rem;
+      background: #ccc;
+    }
+  }  
+}
