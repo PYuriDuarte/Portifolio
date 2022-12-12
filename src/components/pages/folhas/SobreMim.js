@@ -1,7 +1,7 @@
 import f1 from '../../images/f1.jpg'
-import f2 from '../../images/f2.jpg'
-import f3 from '../../images/f3.jpg'
-import f4 from '../../images/f4.jpg'
+// import f2 from '../../images/f2.jpg'
+// import f3 from '../../images/f3.jpg'
+// import f4 from '../../images/f4.jpg'
 
 function SobreMimjs(){
 
@@ -33,10 +33,28 @@ function SobreMimjs(){
       </div>
 
       <div className="foteste">
-        <img src={f1}/>       
+        <img src={f1} alt="Yuri Duarte"/>       
       </div>
 
-      <div className="fotoCarrossel">
+      <div className="perfil">
+        <h3>Perfil: ORIENTADO A RESULTADOS</h3>
+        {/* <div className="tituloDoPerfil">
+          <span>Focado</span>
+          <span>Competitivo</span>
+          <span>Extrovertido</span>
+          <span>Aberto ao risco</span>
+          <span>Orientado a tarefas</span>
+        </div> */}
+        <div className="circulo">          
+          <span className="a circuloDeProgresso circuloDeProgresso--60"></span>
+          <span className="b circuloDeProgresso circuloDeProgresso--92"></span>
+          <span className="c circuloDeProgresso circuloDeProgresso--65"></span>
+          <span className="d circuloDeProgresso circuloDeProgresso--90"></span>
+          <span className="e circuloDeProgresso circuloDeProgresso--75"></span>
+        </div>        
+      </div>
+
+      {/* <div className="fotoCarrossel">
 
         <div className="decorFoto">
           <div className="decor"></div>
@@ -118,7 +136,7 @@ function SobreMimjs(){
           <div className="decor"></div>
         </div>
                
-      </div>  
+      </div>   */}
             
     </div> 
   )

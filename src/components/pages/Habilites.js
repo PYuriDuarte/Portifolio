@@ -4,19 +4,10 @@ import {Link} from 'react-router-dom';
 function Habilitesjs(){
 
   return (
-    <div className='folhas'>
-      <span>
-        <div></div>
-        <div></div>
-      </span>
-
+    <div className='folhas folha'>
+      <div></div>
       <Link to="/tech"><p>Minhas Habilidades</p></Link>
-      
-      <span>
-        <div></div>
-        <div></div>
-      </span>
-
+      <div></div>
     </div>    
   )
 };

@@ -3,18 +3,10 @@ import {Link} from 'react-router-dom';
 function Projectsjs(){
 
   return (
-    <div className='folhas'>
-      <span>
-        <div></div>
-        <div></div>
-      </span>
-
-      <Link to="/eu"><p>Meus Projetos</p></Link>
-      
-      <span>
-        <div></div>
-        <div></div>
-      </span>
+    <div className='folha'>
+      <div></div>
+      <Link to="/"><p>Meus Projetos</p></Link>
+      <div></div>      
     </div>
   )
 

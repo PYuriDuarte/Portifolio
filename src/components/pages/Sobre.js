@@ -3,18 +3,10 @@ import {Link} from 'react-router-dom';
 function Sobrejs(){  
 
   return (
-    <div className='folhas'>
-      <span>
-        <div></div>
-        <div></div>
-      </span>
-
+    <div className='folha'>
+      <div></div>
       <Link to="/eu"><p>Sobre Mim</p></Link>
-      
-      <span>
-        <div></div>
-        <div></div>
-      </span>
+      <div></div>
     </div>
   )
 };
