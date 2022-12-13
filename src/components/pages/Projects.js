@@ -5,7 +5,7 @@ function Projectsjs(){
   return (
     <div className='folha'>
       <div></div>
-      <Link to="/"><p>Meus Projetos</p></Link>
+      <Link to="/"><h2>Meus Projetos</h2></Link>
       <div></div>      
     </div>
   )

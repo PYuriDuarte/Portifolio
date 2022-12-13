@@ -6,7 +6,7 @@ function Habilitesjs(){
   return (
     <div className='folhas folha'>
       <div></div>
-      <Link to="/tech"><p>Minhas Habilidades</p></Link>
+      <Link to="/tech"><h2>Minhas Habilidades</h2></Link>
       <div></div>
     </div>    
   )

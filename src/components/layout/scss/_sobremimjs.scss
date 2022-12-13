@@ -102,16 +102,37 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      text-align: center;
+      .circuloConteudo{
+        display: flex;
+        flex-direction: column;
+        flex: 20%;
+        align-items: center;
+        &:hover{
+          .legendaDoCirculo{
+            opacity: 1;
+          }
+        }
+      }
+      .legendaDoCirculo{
+        opacity: 0;
+        display: block;
+        margin-top: 2rem;
+        color: #ccc;
+        font-size: 1.6rem;
+        font-weight: 700;
+        transition: all .4s ease;
+      }
       .circuloDeProgresso{
         @for $i from 0 through 100{
           $deg: 90deg + (3.6 * $i);          
             
           &--#{$i}{
-            $color: if($i < 51, #444, #e61919);
+            $color: if($i < 51, #444, #c00);
             $direction: if($i < 51, right, left);           
   
             background: linear-gradient(to #{$direction}, #{$color} 50%, transparent 50%, transparent),
-            linear-gradient(#{$deg}, #e61919 50%, #444 50%)          
+            linear-gradient(#{$deg}, #c00 50%, #444 50%)          
             ; 
             
             &::after{
@@ -124,17 +145,17 @@
             }
 
             &:hover{
-              $color: if($i < 51, #555, #c00);
+              $color: if($i < 51, #555, #e61919);
 
               background: linear-gradient(to #{$direction}, #{$color} 50%, transparent 50%, transparent),
-              linear-gradient(#{$deg}, #c00 50%, #555 50%);
+              linear-gradient(#{$deg}, #e61919 50%, #555 50%);
 
               &::before{
                 display: none;
               }
               &::after{
                 display: inline-flex;
-              }
+              }            
             }
           }
         }
@@ -158,72 +179,21 @@
           align-items: center;
         }
       }
-    }
-    .a,.b,.c,.d,.e{
-      &::after{
-        background: #333;
-        color: map-get($map: $colors, $key: branco);
-        border-radius: 50%;
-        transform: scale(0.8);
-        font-size: 200%;
-        display: inline-flex;
-        height: 100%;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+      .a,.b,.c,.d,.e{
+        &::after{
+          background: #333;
+          color: map-get($map: $colors, $key: branco);
+          border-radius: 50%;
+          transform: scale(0.8);
+          font-size: 200%;
+          font-weight: 500;
+          display: none;
+          height: 100%;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
       }
-    }   
-  }
-  // .fotoCarrossel{
-  //   display: none;
-  //   flex: 100%;
-  //   flex-direction: column;
-  //   margin-top: 1rem;
-  //   height: 100%;
-  //   min-height: 20rem;
-  //   width: 100%;    
-  //   justify-content: space-around;
-  //   align-items: center;
-  //   border-bottom: 2px solid #606060;
-  //   border-top: 2px solid #606060;
-  //   .fotoContainer{
-  //     width: 100%;
-  //     flex: 100%;
-  //     display: flex;
-  //     align-items: center;
-  //     justify-content: space-around;
-  //     .fotoPai{
-  //       overflow: hidden;
-  //       border: 2px solid #707070;
-  //       border-radius: 1.5rem;
-  //       a{
-  //         cursor: pointer;
-  //         img{
-  //           width: 20rem;
-  //           transition: all .5s ease;
-  //           &:hover{
-  //             transform: scale(1.06);
-  //           }
-  //         }
-  //       }          
-  //     }       
-  //   }
-  //   .decorFoto{
-  //     flex: 100%;
-  //     display: flex;
-  //     width: 100%;
-  //     justify-content: space-around;
-  //     align-items: center;
-  //     max-height: 2rem;
-  //     margin: .5rem 0;
-  //     .decor{        
-  //       margin: 3rem 0;
-  //       padding: .8rem;
-  //       border: 2px solid #707070;
-  //       width: 1rem;
-  //       height: 1rem;
-  //       border-radius: 30%;
-  //     }
-  //   }    
-  // }
+    }       
+  }  
 }

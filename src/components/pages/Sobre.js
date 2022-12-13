@@ -5,7 +5,7 @@ function Sobrejs(){
   return (
     <div className='folha'>
       <div></div>
-      <Link to="/eu"><p>Sobre Mim</p></Link>
+      <Link to="/eu"><h2>Sobre mim</h2></Link>
       <div></div>
     </div>
   )

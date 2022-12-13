@@ -1,7 +1,7 @@
-import{FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa';
-import{BsGithub} from 'react-icons/bs';
+
 import {Link} from 'react-router-dom';
 import Y from '../images/y-branco.png';
+import Socialjs from '../pages/folhas/Social';
 
 function NavBarjs(){
 
@@ -18,12 +18,7 @@ function NavBarjs(){
           <li><Link to="/habilites">Habilidades</Link></li>
           <li><Link to="/contact">Contato</Link></li>          
         </ul>
-        <ul className='social_list'>
-          <li className='icon icon-face'><FaFacebook/></li>
-          <li className='icon icon-insta'><FaInstagram/></li>
-          <li className='icon icon-link'><FaLinkedin/></li>
-          <li className='icon icon-git'><BsGithub/></li>
-        </ul>
+        <Socialjs/>
       </div>    
     </nav>
   )
