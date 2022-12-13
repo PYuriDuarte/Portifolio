@@ -12,7 +12,7 @@ function SobreMimjs(){
       <div className="sobreMim">
         <div className="titleSobreMim">
           <span>&lt;h2&gt;</span>
-          <a><h2>Sobre mim</h2></a>  
+          <a href="#"><h2>Sobre mim</h2></a>  
           <span>&lt;/h2&gt;</span>      
         </div>
         <div className="h3SobreMim">

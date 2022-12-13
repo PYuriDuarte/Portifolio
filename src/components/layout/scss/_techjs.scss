@@ -1,18 +1,119 @@
 .tech{
-  background: #111;
-  height: 100%;
-  min-height: 62.7rem;
-  width: 100%;
   flex: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  h2{
-    flex: 50%;
+  .techTitle{
+    margin: -10rem 0 10rem 0;
+    h2{
+      font-size: 7rem;
+    }
+    span{
+      margin-left: -38rem;
+      font-size: 1.4rem; 
+      color: #606060;
+    }
+  }
+  span{
+    margin: 2rem 0 2rem -105rem;
+    font-size: 1.4rem; 
+    color: #606060;
   }
   ul{
-    flex: 50%;
-    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    li{
+      position: relative;
+      cursor: pointer;
+      margin: 0 3rem;
+      font-size: 2.5rem;
+      &:hover{
+        .html5, .html5svg{
+          color: #e34c26;
+        }
+        .css3, .css3svg{
+          color: #264de4;
+        }
+        .sass, .sasssvg{
+          color: #cc6699;
+        }
+        .javascript, .javascriptsvg{
+          color: #f0db4f;
+        }
+        .node, .nodesvg{
+          color: #3c873a;
+        }
+        .git, .gitsvg{
+          color: #f34f29;
+        }
+        .react, .reactsvg{
+          color: #05427c;
+        }
+      }
+      p{
+        color: #fff;
+        margin-bottom: 1rem;
+      }
+      svg{
+        color: #222;
+        font-size: 10rem;        
+      }
+      &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        font-size: 13rem;
+        height: 100%;
+        transition: 0.5s ease-in-out;
+      }
+      &:nth-child(1)::before{
+        content: "\f16d";
+        -webkit-text-fill-color: transparent;
+        border-bottom: 4px solid #e34c26;
+      }
+      &:nth-child(2)::before{
+        content: "\f16d";
+        -webkit-text-fill-color: transparent;
+        border-bottom: 4px solid #264de4;
+      }
+      &:nth-child(3)::before{
+        content: "\f16d";
+        -webkit-text-fill-color: transparent;
+        border-bottom: 4px solid #cc6699;
+      }
+      &:nth-child(4)::before{
+        content: "\f16d";
+        -webkit-text-fill-color: transparent;
+        border-bottom: 4px solid #f0db4f;
+      }
+      &:nth-child(5)::before{
+        content: "\f16d";
+        -webkit-text-fill-color: transparent;
+        border-bottom: 4px solid #3c873a;
+      }
+      &:nth-child(6)::before{
+        content: "\f16d";
+        -webkit-text-fill-color: transparent;
+        border-bottom: 4px solid #f34f29;
+      }
+      &:nth-child(7)::before{
+        content: "\f16d";
+        -webkit-text-fill-color: transparent;
+        border-bottom: 4px solid #05427c;
+      }
+      &:hover::before{
+        height: 0;
+        margin-top: -1rem;
+      }
+    }
+  }
+  .curriculo{
+    span{
+      margin: 0 3rem;
+    }
   }
 }
