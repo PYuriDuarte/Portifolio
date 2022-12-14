@@ -1,4 +1,5 @@
 import React from 'react';
+import Cv from '../images/cv-yuri_duarte-front_end.pdf';
 import{FaSass, } from 'react-icons/fa';
 import{SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiGit} from 'react-icons/si';
 
@@ -47,7 +48,7 @@ function Habilitesjs(){
 
       <div className='curriculo'>
         <span>&lt;button&gt;</span>
-        <button>Curriculo</button>
+        <a href={Cv} download="cv-yuri_duarte-front_end">Download CV</a>
         <span>&lt;/button&gt;</span>
       </div>
       
@@ -57,29 +58,3 @@ function Habilitesjs(){
 };
 
 export default Habilitesjs;
-
-
-
-
-
-
-//     <nav className='navbar'>
-//       <div className='navdiv'>
-//         <Link to="/">
-//           <img className='logo ipsilon' src={Y} alt="logo Yuri"/>
-//         </Link>
-//         <hr/>
-//         <ul className='list'>
-//           <li><Link to="/sobre">Sobre</Link></li>
-//           <li><Link to="/projects">Projetos</Link></li>
-//           <li><Link to="/habilites">Habilidades</Link></li>
-//           <li><Link to="/contact">Contato</Link></li>          
-//         </ul>
-
-//       </div>    
-//     </nav>
-//   )
-
-// };
-
-// export default Habilidadejs;

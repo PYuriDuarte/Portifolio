@@ -30,9 +30,10 @@
       cursor: pointer;
       margin: 0 3rem;
       font-size: 2.5rem;
+      transition: all 0.5s ease-in-out;
       &:hover{
         .html5, .html5svg{
-          color: #e34c26;
+          color: #f06529;
         }
         .css3, .css3svg{
           color: #264de4;
@@ -73,7 +74,7 @@
       &:nth-child(1)::before{
         content: "\f16d";
         -webkit-text-fill-color: transparent;
-        border-bottom: 4px solid #e34c26;
+        border-bottom: 4px solid #f06529;
       }
       &:nth-child(2)::before{
         content: "\f16d";
@@ -112,8 +113,25 @@
     }
   }
   .curriculo{
+    margin: 6rem 0 -6rem 0;
     span{
       margin: 0 3rem;
+    }
+    a{
+      border-radius: .2rem;
+      font-size: 2rem;
+      padding: 1rem 3rem;
+      color: #555;
+      background: #222;
+      transition: all .5s ease;
+      &:hover{
+        color: #e61919;
+        background: #111;
+      }
+      &:active{
+        color: #fff;
+        background: #000;
+      }
     }
   }
 }

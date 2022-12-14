@@ -1,12 +1,11 @@
-import {Link} from 'react-router-dom';
+import React from 'react';
 
 function Projectsjs(){
 
   return (
-    <div className='folha'>
-      <div></div>
-      <Link to="/"><h2>Meus Projetos</h2></Link>
-      <div></div>      
+    <div className="projetos">
+      <h2>Cards</h2>
+              
     </div>
   )
 

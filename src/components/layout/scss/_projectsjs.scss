@@ -1,0 +1,39 @@
+.projetos{
+  flex: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  .carrossel{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    cursor: grab;
+    overflow: hidden;
+    .inner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #fff;
+      .tituloCarrossel{
+        background: blue;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .nomeDoProjeto{
+          font-size: 3rem;
+        }
+      }
+      .imageCarrossel{
+        display: flex;
+        .card{
+          min-height: 20rem;
+          min-width: 35rem;
+          padding: 2rem;
+        }
+      }      
+    }
+  }  
+}
