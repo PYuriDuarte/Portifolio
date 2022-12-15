@@ -9,33 +9,29 @@ function Projectsjs(){
 
   return (
     <div className="projetos">
-      <h2>Cards</h2>
+      <h2>Projetos</h2>
       <div className='cardContainer'>
+
         <div className='cardContent'>
-          <img src={f1}/>
+          <img src={f1} alt="projeto cep"/>
         </div>
         <div className='cardContent'>
-          <img src={f2}/>
+          <img src={f1} alt="projeto cep"/>
         </div>
         <div className='cardContent'>
-          <img src={f3}/>
+          <img src={f1} alt="projeto cep"/>
         </div>
         <div className='cardContent'>
-          <img src={f4}/>
+          <img src={f1} alt="projeto cep"/>
         </div>
         <div className='cardContent'>
-          <img src={f1}/>
+          <img src={f1} alt="projeto cep"/>
         </div>
         <div className='cardContent'>
-          <img src={f2}/>
+          <img src={f1} alt="projeto cep"/>
         </div>
-        <div className='cardContent'>
-          <img src={f3}/>
-        </div>
-        <div className='cardContent'>
-          <img src={f4}/>
-        </div>
-      </div>              
+
+      </div>             
     </div>
   )
 
