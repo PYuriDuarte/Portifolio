@@ -30,6 +30,15 @@ function Projectsjs(){
         <div className='cardContent'>
           <img src={f1} alt="projeto cep"/>
         </div>
+        <div className='cardContent'>
+          <img src={f1} alt="projeto cep"/>
+        </div>
+        <div className='cardContent'>
+          <img src={f1} alt="projeto cep"/>
+        </div>
+        <div className='cardContent'>
+          <img src={f1} alt="projeto cep"/>
+        </div>
 
       </div>             
     </div>
