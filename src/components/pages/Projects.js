@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player'
 
 import pimc from '../videos/imc.mp4';
 import pcep from '../videos/cep.mp4';
@@ -24,43 +25,39 @@ function Projectsjs(){
       <div className='cardContainer'>
 
         <div className='cardContent'>
-          <img src={igod} alt="site do god of war"/>
-          <video autoPlay muted loop>
-            <source src={pgod} type="video/mp4"/>
-          </video>
+          {/* <img src={igod} alt="site do god of war"/> */}
+          <ReactPlayer url="https://www.youtube.com/watch?v=wSjja0u0heg" muted controls playing/>
         </div>
         <div className='cardContent'>
-        <img src={igod} alt="site do god of war"/>
+        <img src={ipoke} alt="site do god of war"/>
           <video autoPlay muted loop>
             <source src={ppoke} type="video/mp4"/>
           </video>
         </div>
         <div className='cardContent'>
-        <img src={igod} alt="site do god of war"/>
+        <img src={irank} alt="site do god of war"/>
           <video autoPlay muted loop>
             <source src={prank} type="video/mp4"/>
           </video>
         </div>
         <div className='cardContent'>
-        <img src={igod} alt="site do god of war"/>
+        <img src={iimc} alt="site do god of war"/>
           <video autoPlay muted loop>
             <source src={pimc} type="video/mp4"/>
           </video>
         </div>
         <div className='cardContent'>
-        <img src={igod} alt="site do god of war"/>
-          <video autoPlay muted loop>
-            <source src={pcep} type="video/mp4"/>
-          </video>
+        {/* <img src={icep} alt="site do god of war"/> */}
+        <ReactPlayer url="https://www.youtube.com/watch?v=MAN3ZnxJE2o&t=4s" muted controls playing/>
         </div>        
         <div className='cardContent'>
-        <img src={igod} alt="site do god of war"/>
+        <img src={imusic} alt="site do god of war"/>
           <video autoPlay muted loop>
             <source src={pmusic} type="video/mp4"/>
           </video>
         </div>        
         <div className='cardContent'>
-        <img src={igod} alt="site do god of war"/>
+        <img src={ilamp} alt="site do god of war"/>
           <video autoPlay muted loop>
             <source src={plamp} type="video/mp4"/>
           </video>
@@ -76,8 +73,7 @@ function Projectsjs(){
           <video autoPlay muted loop>
             <source src={plamp} type="video/mp4"/>
           </video>
-        </div>
-        
+        </div>        
 
       </div>             
     </div>
