@@ -1,9 +1,11 @@
 import React from 'react';
 
-import f1 from '../images/f1.jpg'
-import f2 from '../images/f2.jpg'
-import f3 from '../images/f3.jpg'
-import f4 from '../images/f4.jpg'
+import pimc from '../videos/imc.mp4';
+import pcep from '../videos/cep.mp4';
+import pgod from '../videos/god.mp4';
+import plamp from '../videos/lamp.mp4';
+import pmusic from '../videos/music.mp4';
+import prank from '../videos/rank.mp4';
 
 function Projectsjs(){
 
@@ -13,32 +15,36 @@ function Projectsjs(){
       <div className='cardContainer'>
 
         <div className='cardContent'>
-          <img src={f1} alt="projeto cep"/>
+          <video autoPlay muted>
+            <source src={pimc} type="video/mp4"/>
+          </video>
         </div>
         <div className='cardContent'>
-          <img src={f1} alt="projeto cep"/>
+          <video autoPlay muted>
+            <source src={pcep} type="video/mp4"/>
+          </video>
         </div>
         <div className='cardContent'>
-          <img src={f1} alt="projeto cep"/>
+          <video autoPlay muted>
+            <source src={prank} type="video/mp4"/>
+          </video>
         </div>
         <div className='cardContent'>
-          <img src={f1} alt="projeto cep"/>
+          <video autoPlay muted>
+            <source src={pmusic} type="video/mp4"/>
+          </video>
         </div>
         <div className='cardContent'>
-          <img src={f1} alt="projeto cep"/>
+          <video autoPlay muted>
+            <source src={pgod} type="video/mp4"/>
+          </video>
         </div>
         <div className='cardContent'>
-          <img src={f1} alt="projeto cep"/>
+          <video autoPlay muted>
+            <source src={plamp} type="video/mp4"/>
+          </video>
         </div>
-        <div className='cardContent'>
-          <img src={f1} alt="projeto cep"/>
-        </div>
-        <div className='cardContent'>
-          <img src={f1} alt="projeto cep"/>
-        </div>
-        <div className='cardContent'>
-          <img src={f1} alt="projeto cep"/>
-        </div>
+        
 
       </div>             
     </div>

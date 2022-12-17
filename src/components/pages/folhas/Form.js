@@ -1,5 +1,9 @@
 function Formjs(){
 
+  // const cancelar =(obj)=>{
+  //   return obj.preventDefault()
+  // }
+
   return (
     <form className="form" action="https://formsubmit.co/yuri.viana10@gmail.com" method="POST">
       <label className="labelname" htmlFor="name">Nome</label>
