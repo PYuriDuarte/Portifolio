@@ -19,6 +19,7 @@ import ipoke from '../images/poke.png';
 
 function Projectsjs(){
 
+
   return (
     <div className="projetos">
       <h2>Projetos</h2>
@@ -26,54 +27,41 @@ function Projectsjs(){
 
         <div className='cardContent'>
           {/* <img src={igod} alt="site do god of war"/> */}
-          <ReactPlayer url="https://www.youtube.com/watch?v=wSjja0u0heg" muted controls playing/>
+          <ReactPlayer url="https://www.youtube.com/watch?v=wSjja0u0heg" className="video" light width="32rem" height="18rem" muted loop playing/>
         </div>
         <div className='cardContent'>
-        <img src={ipoke} alt="site do god of war"/>
-          <video autoPlay muted loop>
-            <source src={ppoke} type="video/mp4"/>
-          </video>
+          {/* <img src={ipoke} alt="site do god of war"/> */}
+          <ReactPlayer url="https://youtu.be/VeAH3mYyYzw" className="video" light width="32rem" height="18rem" muted loop playing/>
         </div>
         <div className='cardContent'>
-        <img src={irank} alt="site do god of war"/>
-          <video autoPlay muted loop>
-            <source src={prank} type="video/mp4"/>
-          </video>
+          {/* <img src={irank} alt="site do god of war"/> */}
+          <ReactPlayer url="https://youtu.be/hsh_i75gIP0" className="video" light width="32rem" height="18rem" muted loop playing/>
         </div>
         <div className='cardContent'>
-        <img src={iimc} alt="site do god of war"/>
-          <video autoPlay muted loop>
-            <source src={pimc} type="video/mp4"/>
-          </video>
+          {/* <img src={iimc} alt="site do god of war"/> */}
+          <ReactPlayer url="https://youtu.be/ybtM0JouC9s" className="video" light width="32rem" height="18rem" muted loop playing/>
         </div>
         <div className='cardContent'>
-        {/* <img src={icep} alt="site do god of war"/> */}
-        <ReactPlayer url="https://www.youtube.com/watch?v=MAN3ZnxJE2o&t=4s" muted controls playing/>
+          {/* <img src={icep} alt="site do god of war"/> */}
+          <ReactPlayer url="https://www.youtube.com/watch?v=MAN3ZnxJE2o&t=4s" light className="video" width="32rem" height="18rem" muted loop playing/>
         </div>        
         <div className='cardContent'>
-        <img src={imusic} alt="site do god of war"/>
-          <video autoPlay muted loop>
-            <source src={pmusic} type="video/mp4"/>
-          </video>
+          {/* <img src={imusic} alt="site do god of war"/> */}
+          <ReactPlayer url="https://youtu.be/LPq54FAlYuk" className="video" light width="32rem" height="18rem" muted loop playing/>
         </div>        
         <div className='cardContent'>
-        <img src={ilamp} alt="site do god of war"/>
-          <video autoPlay muted loop>
-            <source src={plamp} type="video/mp4"/>
-          </video>
+          {/* <img src={ilamp} alt="site do god of war"/> */}
+          <ReactPlayer url="https://youtu.be/K5XC08kpang" className="video" light width="32rem" height="18rem" muted loop playing/>
         </div>
         <div className='cardContent'>
-        <img src={igod} alt="site do god of war"/>
-          <video autoPlay muted loop>
-            <source src={plamp} type="video/mp4"/>
-          </video>
+          {/* <img src={ilamp} alt="site do god of war"/> */}
+          <ReactPlayer url="https://youtu.be/K5XC08kpang" className="video" light width="32rem" height="18rem" muted loop playing/>
         </div>
         <div className='cardContent'>
-        <img src={igod} alt="site do god of war"/>
-          <video autoPlay muted loop>
-            <source src={plamp} type="video/mp4"/>
-          </video>
-        </div>        
+          {/* <img src={ilamp} alt="site do god of war"/> */}
+          <ReactPlayer url="https://youtu.be/K5XC08kpang" className="video" light width="32rem" height="18rem" muted loop playing/>
+        </div>
+               
 
       </div>             
     </div>
