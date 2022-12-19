@@ -19,13 +19,21 @@
     overflow: hidden;
     overflow-y: auto;
     justify-content: center;
-    align-items: flex-start;   
+    align-items: flex-start;
+    .divgod{
+      background-image: url('../../images/logogod.jpg');
+      background-position: center;
+      background-repeat: no-repeat;  
+      background-size: cover;
+      height: 30rem;
+      width: 100%;      
+    }   
     .cardContent{
       position: relative;
       flex: 10%;
+      background: #606060;
       display: flex;
       height: 45rem;
-      background: #fff;
       margin: 1rem;
       justify-content: center;
       align-items: flex-start;
@@ -39,9 +47,6 @@
         top: 4%;
         left: 45%;
         z-index: 1;
-        &:hover{
-          opacity: 0;
-        }
       }    
     }
   }
