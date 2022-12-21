@@ -1,24 +1,9 @@
 import React from 'react';
 import ReactPlayer from 'react-player'
 
+import{BsFillCheckCircleFill, } from 'react-icons/bs';
 import{FaSass, } from 'react-icons/fa';
 import{SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiGit} from 'react-icons/si';
-
-import pimc from '../videos/imc.mp4';
-import pcep from '../videos/cep.mp4';
-import pgod from '../videos/god.mp4';
-import plamp from '../videos/lamp.mp4';
-import pmusic from '../videos/music.mp4';
-import prank from '../videos/rank.mp4';
-import ppoke from '../videos/poke.mp4';
-
-import iimc from '../images/imc.png';
-import icep from '../images/cep.png';
-import igod from '../images/logogod.jpg';
-import ilamp from '../images/lamp.png';
-import imusic from '../images/music.png';
-import irank from '../images/rank.png';
-import ipoke from '../images/poke.png';
 
 function Projectsjs(){
 
@@ -37,7 +22,18 @@ function Projectsjs(){
               <li className='logosass'><FaSass/></li>
               <li className='logojavas'><SiJavascript/></li>              
             </ul>
-            <h4>Porjeto God of War</h4>       
+            <h4>Porjeto God of War</h4>
+            <a className='button' href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Prévia
+            </a>      
+            <a className='visita' target="_blank" href='https://pyuriduarte.github.io/projeto-godofwar/'>
+              <p>Visitar</p>
+              <BsFillCheckCircleFill className='iconPcheck'/>
+            </a>        
           </div>
           {/* <img src={igod} alt="site do god of war"/>
           <ReactPlayer url="https://www.youtube.com/watch?v=wSjja0u0heg" className="video" onReady playIcon light width="32rem" height="18rem" muted loop playing/> */}
@@ -49,7 +45,16 @@ function Projectsjs(){
               <li className='logohtml'><SiHtml5/></li>
               <li className='logocss'><SiCss3/></li>
               <li className='logojavas'><SiJavascript/></li>              
-            </ul>             
+            </ul>
+            <h4>Porjeto Pokedex</h4>
+            <a className='button' href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Prévia
+            </a>
+            <a className='visita' target="_blank" href='https://pyuriduarte.github.io/pokedex/'><p>Visitar</p></a>           
           </div>
           {/* <img src={ipoke} alt="site do god of war"/> 
           <ReactPlayer url="https://youtu.be/VeAH3mYyYzw" className="video" playIcon light width="32rem" height="18rem" muted loop playing/>*/}
