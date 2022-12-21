@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactPlayer from 'react-player'
 
+import{FaSass, } from 'react-icons/fa';
+import{SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiGit} from 'react-icons/si';
+
 import pimc from '../videos/imc.mp4';
 import pcep from '../videos/cep.mp4';
 import pgod from '../videos/god.mp4';
@@ -26,13 +29,30 @@ function Projectsjs(){
       <div className='cardContainer'>
 
         <div className='cardContent'>
-          <div className='divgod'></div>
+          <div className='divgod divlogo'></div>
+          <div className='cardText'>
+            <ul>
+              <li className='logohtml'><SiHtml5/></li>
+              <li className='logocss'><SiCss3/></li>
+              <li className='logosass'><FaSass/></li>
+              <li className='logojavas'><SiJavascript/></li>              
+            </ul>
+            <h4>Porjeto God of War</h4>       
+          </div>
           {/* <img src={igod} alt="site do god of war"/>
           <ReactPlayer url="https://www.youtube.com/watch?v=wSjja0u0heg" className="video" onReady playIcon light width="32rem" height="18rem" muted loop playing/> */}
         </div>
         <div className='cardContent'>
-          {/* <img src={ipoke} alt="site do god of war"/> */}
-          <ReactPlayer url="https://youtu.be/VeAH3mYyYzw" className="video" playIcon light width="32rem" height="18rem" muted loop playing/>
+        <div className='divpoke divlogo'></div>
+        <div className='cardText'>
+            <ul>
+              <li className='logohtml'><SiHtml5/></li>
+              <li className='logocss'><SiCss3/></li>
+              <li className='logojavas'><SiJavascript/></li>              
+            </ul>             
+          </div>
+          {/* <img src={ipoke} alt="site do god of war"/> 
+          <ReactPlayer url="https://youtu.be/VeAH3mYyYzw" className="video" playIcon light width="32rem" height="18rem" muted loop playing/>*/}
         </div>
         <div className='cardContent'>
           {/* <img src={irank} alt="site do god of war"/> */}
