@@ -29,11 +29,13 @@ function Projectsjs(){
               <span></span>
               <span></span>
               Prévia
-            </a>      
-            <a className='visita' target="_blank" href='https://pyuriduarte.github.io/projeto-godofwar/'>
-              <p>Visitar</p>
-              <BsFillCheckCircleFill className='iconPcheck'/>
-            </a>        
+            </a>
+            <div className='divisita'>
+              <a className='visita' target="_blank" href='https://pyuriduarte.github.io/projeto-godofwar/'>
+                <p>Visitar</p>
+                <BsFillCheckCircleFill className='iconPcheck'/>
+              </a> 
+            </div>                  
           </div>
           {/* <img src={igod} alt="site do god of war"/>
           <ReactPlayer url="https://www.youtube.com/watch?v=wSjja0u0heg" className="video" onReady playIcon light width="32rem" height="18rem" muted loop playing/> */}
@@ -54,7 +56,12 @@ function Projectsjs(){
               <span></span>
               Prévia
             </a>
-            <a className='visita' target="_blank" href='https://pyuriduarte.github.io/pokedex/'><p>Visitar</p></a>           
+            <div className='divisita'>
+              <a className='visita' target="_blank" href='https://pyuriduarte.github.io/pokedex/'>
+                <p>Visitar</p>
+                <BsFillCheckCircleFill className='iconPcheck'/>
+              </a> 
+            </div>           
           </div>
           {/* <img src={ipoke} alt="site do god of war"/> 
           <ReactPlayer url="https://youtu.be/VeAH3mYyYzw" className="video" playIcon light width="32rem" height="18rem" muted loop playing/>*/}

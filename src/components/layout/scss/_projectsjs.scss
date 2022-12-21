@@ -40,7 +40,7 @@
           h4{
             margin-top: 0;
           }
-          .visita, .button{
+          .divisita, .button{
             margin: -1rem 1rem 3rem 1rem;
           }                  
           ul{
@@ -59,7 +59,7 @@
             }
           }
         }
-      }
+      }      
       .cardText{
         display: flex;
         flex-flow: row wrap;
@@ -69,35 +69,42 @@
         background: #606060;
         margin-top: -5rem;
         z-index: 3;        
-        color: #000;        
-        .visita{
-          position: relative;
+        color: #000;
+        .divisita{
           display: inline-flex;
-          overflow: hidden;          
-          letter-spacing: .1rem;
-          justify-content: center;
-          align-items: center;
-          height: 3rem;          
-          background: #fff;
+          width: 100%;
           margin: 10rem 1rem 3rem 1rem;
           flex: 40%;
+          justify-content: center;
           transition: all .3s ease;
-          border-radius: 5rem;
-          p{
-            color: #000;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 1.6rem;
-          }
-          .iconPcheck{
-            opacity: 0;
-            position: absolute;
+          .visita{
+            position: relative;
+            display: inline-flex;
+            overflow: hidden;          
+            letter-spacing: .1rem;
+            justify-content: center;
+            align-items: center;
             height: 3rem;
-            width: 3rem;
-            transition: all 0,3s ease;
-            color: #2b961f;
+            width: 100%;          
+            background: #fff;            
+            transition: all .3s ease;
+            border-radius: 5rem;
+            p{
+              color: #000;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-size: 1.6rem;
+            }
+            .iconPcheck{
+              opacity: 0;
+              position: absolute;
+              height: 3rem;
+              width: 3rem;
+              transition: all 0,3s ease;
+              color: #2b961f;
+            }
           }
-        }
+        }       
         .button{
           position: relative;
           display: inline-flex;
