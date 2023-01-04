@@ -22,6 +22,12 @@
         a{
           color: var(--color-Btn-text);
           font-size: 3rem;
+          &:visited{
+            color: #d6249f;
+          }
+          &:hover{
+            color: #c00;
+          }          
         }
       }
     }
@@ -54,19 +60,19 @@
       }
       .icon-face:hover{
         background-color: #4267B2;
-        outline-color: #4267B2;
+        outline-color: #c00;
       }
       .icon-insta:hover{
         background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-        outline-color: #a02d76;
+        outline-color: #c00;
       }
       .icon-link:hover{
         background-color: #0077b5;
-        outline-color: #0077b5;
+        outline-color: #c00;
       }
       .icon-git:hover{
         background-color: #2ea44f;
-        outline-color: #2ea44f;
+        outline-color: #c00;
       }
     }     
   }

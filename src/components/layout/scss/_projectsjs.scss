@@ -5,6 +5,8 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background-image: url('../../images/fundo 9.png');
+  background-size: cover;
   h2{
     font-size: 5rem;
     margin: 2rem 0;
@@ -59,7 +61,18 @@
             }
           }
         }
-      }      
+      }
+      &:hover{
+        .cardText{
+          .divisita{
+            .visita{
+              p{
+                
+              }              
+            }
+          }
+        }
+      }     
       .cardText{
         display: flex;
         flex-flow: row wrap;
@@ -85,23 +98,31 @@
             justify-content: center;
             align-items: center;
             height: 3rem;
-            width: 100%;          
-            background: #fff;            
+            width: 100%;           
             transition: all .3s ease;
             border-radius: 5rem;
-            p{
-              color: #000;
-              text-decoration: none;
-              text-transform: uppercase;
-              font-size: 1.6rem;
-            }
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 1.6rem;
             .iconPcheck{
               opacity: 0;
+              right: 13rem;
               position: absolute;
               height: 3rem;
               width: 3rem;
-              transition: all 0,3s ease;
-              color: #2b961f;
+              transition: all 0.3s ease-in;
+              transition-delay: .4s;
+              color: #fff;
+            }
+            &:hover{
+              color: #222;
+              background: #fff;
+              .iconPcheck{
+                color: #e61919;
+                opacity: 1;
+                right: 1rem;
+              }
             }
           }
         }       
@@ -213,7 +234,16 @@
       }
       .divpoke{
         background-image:  url("../../images/pokelogo.jpg");      
-      }         
+      }
+      .divrank{
+        background-image: url('../../images/logorank.png');
+      }
+      .divcep{
+        background-image: url('../../images/cep.png');
+      }
+      .divbreve{
+        background-image: url('../../images/breve.jpg');
+      }   
     }
   }
   .carrossel{
@@ -278,5 +308,18 @@
   }
   50%,100% {
     bottom: 100%;
+  }
+}
+
+::-webkit-scrollbar{
+  width: .8rem;
+  background-color: #9f9999;
+}
+::-webkit-scrollbar-thumb{
+  width: .5rem;
+  background: #111;
+  border-radius: 1rem;
+  &:hover{
+    background-color: #c00;
   }
 }
